@@ -1,0 +1,168 @@
+.btn{
+    background-color: transparent;
+    /* color: white; */
+    border: none;
+    /* position: fixed;
+    top: 10px;
+    right: 20px; */
+    transition: transform 0.3s ease-in-out;
+
+}
+
+#left.active{
+    transform: translateX(-200px);
+    transition: transform 0.3s ease-in-out;
+}
+nav{
+    background-color: rgb(185, 185, 185);
+    min-height: 100vh;
+    position: fixed;
+    /* top: 0px; */
+    right: 0px;
+    transform:translateX(100%) ;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding-top: 90px;
+    font-size: 1.2rem;
+    /* color: white; */
+}
+nav.active{
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+}
+
+#bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+#mid{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    height: 40px;
+    width:60px;
+    border-radius: 50px;
+    object-fit: cover;
+    filter: invert(1);
+    margin: 0px 40px;
+}
+.img1{
+    min-width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.topper{
+    margin: 30px 30px;
+    width: 300px;
+    border:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.topper:hover{
+    border: 1px solid gray;
+}
+.img2{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.service{
+    width: 340px;
+    height: 350px;
+    border: 1px solid rgb(148, 146, 146);
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.service:hover{
+    width:350px ;
+    height: 360px;
+
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.social a svg{
+    margin:0px 20px;
+    /* color: black; */
+}
+.social a svg .darkmode{
+    margin:0px 20px;
+    color: wheat;
+}
+.btn1{
+    background-color: transparent;
+    color: teal;
+    
+}
+.btn1:hover{
+    font-size: 1.1rem;
+}
+#contact{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.darkmode{
+    background-color: black;
+    color:wheat;
+}
+
+#contact input{
+    margin: auto;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    width: 700px;
+    color: gray;
+    
+}
+button .darkmode{
+    color: wheat;
+}
+#maths{
+    display: block;
+    /* position: absolute; */
+    
+}
+.activee{
+    display: none;
+}
+#science{
+    display: block;
+    /* position: absolute; */
+    
+}
+
+#sst{
+    display: block;
+    /* position: absolute; */
+    
+}
